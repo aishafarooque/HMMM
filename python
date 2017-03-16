@@ -1,0 +1,23 @@
+
+----------------------
+| ASSEMBLY SUCCESSFUL |
+----------------------
+
+0  : 0000 0010 0000 0001        0 read r2                       #ask for
+1  : 1111 0010 0000 0011        1 jltzn r2 3            #if r2 <= 0, jump to
+2  : 0001 1111 0000 0000        2 setn r15 0            #set r15 == 0
+3  : 0000 1111 0000 0010        3 write r15                     #print r15
+4  : 1100 0010 0000 0011        4 jeqzn r2 3            #if r2 == 0, jump to
+5  : 0001 1110 0110 0100        5 setn r14 100          #set stack counter
+6  : 0110 0000 0000 0000        6 nop                           #set r1
+7  : 0101 0010 1111 1111        7 addn r2 -1            #add -1 to r2
+8  : 0110 0010 0011 0000        8 copy r2 r3            #set r2 == r3
+9  : 0101 0011 1111 1110        9 addn r3 -2            #add -2 to r3
+10 : 1011 1110 0000 1111        10 calln r14 15         #use recursions
+11 : 0110 0011 0011 0010        11 add r3 r3 r2         #add r3 and r2
+12 : 0101 1111 0000 0001        12 addn r15 1           #increase the stack
+13 : 0100 1110 1111 0000        13 loadr r14 r15        #load r15 from the
+14 : 0110 0000 0000 0000        14 nop                          #na
+15 : 0000 0011 0000 0010        15 write r3                     #print r3
+16 : 0000 0000 0000 0000        16 halt                         #stop the
+

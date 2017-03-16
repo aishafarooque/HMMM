@@ -1,0 +1,71 @@
+#Aisha Mohammed Farooque
+#Homework 3 -- HMMM
+#Bill Campbell
+#10/12/2016
+#1 Compute averages. 
+
+#Here's how it was tested:
+
+$ python hmmmSimulator.py
+Enter debugging mode? no
+Enter number: 12
+Enter number: 14
+Enter number: 15
+Enter number: 0
+13
+2
+$
+
+$ python hmmmSimulator.py
+Enter debugging mode? no
+0
+$
+
+
+$python hmmmSimulator.py
+Enter debugging mode? no
+Enter number: 3
+Enter number: 7
+Enter number: 9
+Enter number: 0
+6
+1
+$
+
+#2 loopFibonacci.ha
+
+$ python hmmmSimulator.py
+Enter debugging mode? no
+Enter number: 0
+0
+
+$ pythonhmmmSimulator.py
+Enter debugging mode? no
+Enter number: 1
+1
+
+$ python hmmmSimulator.py
+Enter debugging mode? no
+Enter number: 2
+1
+
+$ python hmmmSimulator.py
+Enter debugging mode? no
+Enter number: 7
+13
+
+#recFibonacci.ha
+
+$ python hmmmSimulator.py
+Enter debugging mode? 6
+Enter number: 6
+8
+$ python hmmmSimulator.py
+Enter debugging mode? no
+Enter number: 6
+8
+
+$ python hmmmSimulator.py
+Enter debugging mode? no
+Enter number: 10
+55
